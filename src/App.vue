@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import {
-    Layout,
-    LayoutContent,
-    LayoutFooter,
-    LayoutSider,
-} from 'ant-design-vue';
+import { Layout, LayoutFooter } from 'ant-design-vue';
 import PageHeader from './components/PageHeader.vue';
 import Profile from './components/profile/Profile.vue';
 import MyIdentity from './components/identity/MyIdentity.vue';
