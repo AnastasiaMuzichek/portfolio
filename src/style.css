@@ -1,0 +1,39 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+    padding: 1rem;
+}
+
+body {
+    margin: 0;
+}
+@font-face {
+    font-family: 'PermanentMarker';
+    src: url('./assets/fonts/PermanentMarker-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('./assets/fonts/Neucha-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-pm {
+    font-family: 'PermanentMarker', sans-serif;
+}
+
+.font-nea {
+    font-family: 'Neucha', sans-serif;
+}
