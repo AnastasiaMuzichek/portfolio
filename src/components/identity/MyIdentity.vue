@@ -5,10 +5,15 @@ import MyAbilities from './MyAbilities.vue';
 </script>
 
 <template>
-    <Layout>
+    <Layout class="layout-identity">
         <MyHobby></MyHobby>
-        <MyAbilities>S</MyAbilities>
+        <MyAbilities></MyAbilities>
     </Layout>
 </template>
 
-<style scoped></style>
+<style scoped>
+.layout-identity {
+    background-color: aliceblue;
+    padding: 20px 50px 0px 50px;
+}
+</style>

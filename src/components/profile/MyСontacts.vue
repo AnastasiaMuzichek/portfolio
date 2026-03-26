@@ -8,12 +8,12 @@ import {
 </script>
 
 <template>
-    <LayoutSider class="frame" style="background-color: aliceblue">
-        <Tag color="rgb(91, 91, 211)" class="font-nea" style="font-size: 20px"
-            >Контакты</Tag
-        >
+    <LayoutSider class="frame">
+        <Tag color="rgb(91, 91, 211)" class="font-nea text-contact">
+            Контакты
+        </Tag>
         <Flex vertical gap="10">
-            <Space style="margin-top: 20px" align="middle">
+            <Space align="middle">
                 <WhatsAppOutlined class="icon"></WhatsAppOutlined>
                 8-(927)-003-78-49
             </Space>
@@ -28,8 +28,9 @@ import {
                     href="https://github.com/AnastasiaMuzichek"
                     target="_blank"
                     rel="noopener noreferrer"
-                    >GitHub</a
                 >
+                    GitHub
+                </a>
             </Space>
             <Space align="middle">
                 <img
@@ -37,9 +38,22 @@ import {
                     src="../../assets/images/telegram.png"
                     style="height: 20px"
                 />
-                <a href="https://telegram.me/lady_anger" target="_blank"
-                    >@lady_anger</a
+                <a href="https://telegram.me/lady_anger" target="_blank">
+                    @lady_anger
+                </a>
+            </Space>
+            <Space align="middle">
+                <img
+                    class="icon"
+                    src="../../assets/images/hh_logo.png"
+                    style="height: 20px"
+                />
+                <a
+                    href="https://samara.hh.ru/resume/3282f445ff08f2b2cc0039ed1f354538753358"
+                    target="_blank"
                 >
+                    hh-резюме
+                </a>
             </Space>
         </Flex>
     </LayoutSider>
@@ -47,22 +61,29 @@ import {
 
 <style scoped>
 .ant-layout .ant-layout-sider {
-    background-color: antiquewhite;
+    background-color: inherit;
     padding: 16px;
+    padding-top: 36px;
 }
 
-.ant-layout .ant-layout-content {
-    padding: 16px;
+.text-contact {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 45px;
+    height: 20px;
+    width: 100px;
+    text-align: center;
 }
 
 .frame {
-    background-color: aliceblue;
     border: 2px solid rgb(91, 91, 211);
-    border-radius: 15%;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 195px;
+    height: 220px;
+    margin-top: 15px;
 }
 
 .icon {

@@ -1,12 +1,18 @@
 <script setup lang="ts"></script>
 
 <template>
-    <div>
+    <div class="myphoto">
         <img src="../assets/images/piggy.jpg" />
     </div>
 </template>
 
 <style scoped>
+.myphoto {
+    width: 190px;
+    display: flex;
+    justify-content: center;
+}
+
 img {
     height: 130px;
     border-radius: 50%;

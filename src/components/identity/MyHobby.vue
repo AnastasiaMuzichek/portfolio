@@ -1,26 +1,36 @@
 <script setup lang="ts">
-import { Flex, LayoutSider, Space, Tag } from 'ant-design-vue';
-
-const hobbys = [
-    'рисование',
-    'музыка',
-    'аниме',
-    'баскетбол',
-    'прогулки',
-    'гейминг',
-    'вязание',
-];
+import { LayoutSider, Tag } from 'ant-design-vue';
+import ListHobbys from './ListHobbys.vue';
 </script>
 
 <template>
-    <LayoutSider style="background-color: aliceblue">
-        <Tag color="rgb(91, 91, 211)" class="font-nea" style="font-size: 20px"
-            >МОИ ИНТЕРЕСЫ</Tag
+    <LayoutSider class="padding-hobby">
+        <Tag color="rgb(91, 91, 211)" class="font-nea text-hobby"
+            >Мои интересы</Tag
         >
-        <Flex vertical gap="10" style="margin-top: 20px">
-            <Space v-for="hob in hobbys">{{ hob }}</Space>
-        </Flex>
+        <ListHobbys></ListHobbys>
     </LayoutSider>
 </template>
 
-<style scoped></style>
+<style scoped>
+.padding-hobby {
+    background-color: aliceblue;
+    border: 2px solid rgb(91, 91, 211);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.text-hobby {
+    font-size: 20px;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    height: 20px;
+    width: 130px;
+    background-color: pink;
+    text-align: center;
+}
+</style>

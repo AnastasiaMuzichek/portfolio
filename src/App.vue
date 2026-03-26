@@ -18,9 +18,3 @@ import Projects from './components/projects/Projects.vue';
         </LayoutFooter>
     </Layout>
 </template>
-
-<style scoped>
-.ant-layout .ant-layout-sider {
-    background-color: antiquewhite;
-}
-</style>

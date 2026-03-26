@@ -33,5 +33,6 @@ import DescriptionOfMe from './DescriptionOfMe.vue';
 .skills-title {
     font-size: 2em;
     font-weight: bold;
+    margin-left: 16px;
 }
 </style>
