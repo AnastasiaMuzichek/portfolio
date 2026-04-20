@@ -2,19 +2,19 @@
 
 <template>
     <div class="myphoto">
-        <img src="../assets/images/piggy.jpg" />
+        <img src="../assets/images/photo.jpg" />
     </div>
 </template>
 
 <style scoped>
 .myphoto {
-    width: 190px;
+    width: 150px;
     display: flex;
     justify-content: center;
 }
 
 img {
-    height: 130px;
+    height: 150px;
     border-radius: 50%;
     border: 2px solid rgb(91, 91, 211);
     box-shadow: 4px 4px 8px rgba(14, 19, 90, 0.4);

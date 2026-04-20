@@ -10,7 +10,6 @@ import {
 defineProps({
     date: String,
     company: String,
-    description: String,
     descriptions: List,
 });
 </script>

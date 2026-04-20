@@ -142,7 +142,7 @@ prepareImages();
     top: -10px;
     left: 16px;
     height: 20px;
-    width: 150px;
+    width: 130px;
     text-align: center;
 }
 

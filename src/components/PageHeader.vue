@@ -24,7 +24,7 @@ import GeneralDescription from './GeneralDescription.vue';
 }
 
 .title {
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: bold;
     margin-top: 0.3em;
     margin-bottom: 0.3em;

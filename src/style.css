@@ -30,6 +30,10 @@ body {
     font-style: normal;
 }
 
+.h-100 {
+    height: 100%;
+}
+
 .font-pm {
     font-family: 'PermanentMarker', sans-serif;
 }
