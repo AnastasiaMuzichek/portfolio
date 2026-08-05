@@ -36,8 +36,8 @@ const title = computed(() => {
 
 <style scoped>
 .photo-project {
-    height: 200px;
-    width: 420px;
+    height: 100%;
+    width: 90%;
     border: 3px solid rgb(91, 91, 211);
     border-radius: 20px;
 }
@@ -53,7 +53,7 @@ const title = computed(() => {
     cursor: pointer;
     position: absolute;
     top: -10px;
-    left: 398px;
+    left: 83%;
     background-color: white;
 }
 
